@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: test-deploy
+    env: static
+    buildCommand: ""
+    startCommand: "serve -s public"
+    branches: 
+      - main
